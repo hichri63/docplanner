@@ -1,0 +1,249 @@
+.head-page{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    padding-bottom: 25px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo {
+    width: 268px;
+    height: 33px;
+    margin-top: 10px;
+    
+}
+.listNav{
+    display: flex;  
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.listNav a{
+    text-decoration: none;
+    color: #ababab;
+    display: block;
+}
+.listNav li{
+    margin-right: 50px;
+}
+.listNav .option, .listNav .option a{
+    color: #00b39b;
+    font-size: 18px;
+}
+.option2{
+    font-size: 18px;
+}
+.option2:hover{
+    color:#00b39b;
+}
+.option3{
+    font-size: 18px;
+    display:none;
+justify-content:space-between;
+position: absolute;
+background-color: #f1f1f1;
+left : 0 ;
+right : 0;
+z-index: 1;
+}
+.option3:hover{
+    color:#00b39b; 
+
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown:hover .option3-content {display: block;}
+.sous-border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 40px;
+    padding-bottom: 10px;
+}
+.phra{
+    color:#00b39b;
+    font-family: Helvetica;
+}
+.phr-body{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:50px;
+    width: 80%;
+    margin : 0 auto;
+
+}
+.parag{
+    line-height: 1.75;
+    font-weight: 400;
+    flex-basis: 100em;
+    color: #ababab;
+    padding: 20px;
+}
+
+.box{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0% auto;
+}
+.box1{
+    background-color:#00ccb1;
+    padding:30px;
+    border-radius:10px;
+    width: 45%;
+    margin-right : 10px;
+    overflow: hidden;
+}
+.box2{
+    background-color:#3d83df;
+    padding:30px;
+    border-radius:10px;
+    width : 45%;
+    margin-left : 10px;
+    overflow: hidden;
+    
+
+}
+.box1 h1{
+    font-size: 1.625em;
+    color: #fff;
+    
+}
+.box2 h1{
+    font-size: 1.625em;
+    color: #fff;
+    
+}
+.prh-size{
+    font-size: 15px;
+    color:#fff;
+}
+.img-box1{
+    width: 400px;
+    height: auto;
+}
+.btb{
+    min-width: 160px;
+    height: 40px;
+    text-transform: uppercase;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 6px;
+}
+.img-box2{
+    width: 400px;
+    height: auto;
+   
+}
+.sous-box{
+    display: flex;
+    justify-content:space-between;
+}
+.footer-body{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+.footer-body h1{
+    
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color: #00ccb1;
+    
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 101%;
+}
+.list a svg{
+    height: 20px;
+    max-width: 100%; 
+    fill: gray; 
+}
+.contenair{
+    background-color: #e5faf8;
+    display: flex;
+    justify-content: space-around;
+}
+.contenair h1{
+    color: #00b39b;
+    font-family: Helvetica;
+}
+.contenair p{
+    color: #ababab;
+}
+.sous-boxs{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 30%;
+
+
+}
+.sous-box1{
+    border: 1px solid black;
+    width: 192px;
+    height: 215px;
+    background-color: #e5faf8;
+    text-align: center;
+}
+.sous-box2{
+    border: 1px solid black;
+    width: 192px;
+    height: 215px;
+    background-color: #e5faf8;
+}
+.sous-box3{
+    border: 1px solid black;
+    width: 192px;
+    height: 215px;
+    background-color: #e5faf8;
+}
+.sous-box4{
+    border: 1px solid black;
+    width: 192px;
+    height: 215px;
+    background-color: #e5faf8;
+}
+.sous-box1 h3{
+    color: #00b39b;
+    margin: .5em 0;
+}
+.alig-text{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.alig-text h1{
+    color:#00b39b;
+}
+.box-image{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;   
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-border{
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-parg{
+    margin-bottom: 10px;
+}
